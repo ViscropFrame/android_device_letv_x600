@@ -23,7 +23,7 @@ cd system/netd
 git apply -v ../../device/letv/x600/patches/system_netd/0001-hotpost-fix.patch
 cd ../..
 cd hardware/libhardware
-git apply -v ../../device/letv/x600/patches/hardware_libhardware/0001-fix-gps-light-audio.patch
+git apply -v ../../device/letv/x600/patches/hardware_libhardware/0001-fix-gps.patch
 cd ../libhardware_legacy
 git apply -v ../../device/letv/x600/patches/hardware_libhardware_legacy/0001-patch-for-mtk.patch
 cd ../..
