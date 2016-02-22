@@ -5,6 +5,7 @@
   - Vendor blobs: https://github.com/jianminglok/android_vendor_xiaomi_hermes
 
 ### Credits (Sort by alphabetical order):
+  - jianminglok
   - lbule
   - nofearnohappy
   - Syl191 for the patches
