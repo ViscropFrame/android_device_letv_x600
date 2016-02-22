@@ -1,6 +1,6 @@
 # mt6795 platform boardconfig
-LOCAL_PATH := device/xiaomi/hermes
--include vendor/xiaomi/hermes/BoardConfigVendor.mk
+LOCAL_PATH := device/letv/x600
+-include vendor/letv/x600/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -148,7 +148,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-       device/xiaomi/hermes/sepolicy
+       device/letv/x600/sepolicy
 
 #SELinux: MTK added
 BOARD_SEPOLICY_UNION := \

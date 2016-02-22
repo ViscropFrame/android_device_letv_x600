@@ -1,4 +1,4 @@
-#define LOG_TAG "hermes"
+#define LOG_TAG "x600"
 
 #include <fcntl.h>
 #include <string.h>

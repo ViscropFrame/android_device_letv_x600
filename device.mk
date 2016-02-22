@@ -2,10 +2,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
-$(call inherit-product, device/xiaomi/hermes/vendor/copyfiles.mk)
-$(call inherit-product, vendor/xiaomi/hermes/hermes-vendor-blobs.mk)
+$(call inherit-product, device/letv/x600/vendor/copyfiles.mk)
+$(call inherit-product, vendor/letv/x600/x600-vendor-blobs.mk)
 
-LOCAL_PATH := device/xiaomi/hermes
+LOCAL_PATH := device/letv/x600
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -14,7 +14,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := hermes
+TARGET_OTA_ASSERT_DEVICE := x600
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    hermes
+    x600
 
 # Gralloc
 PRODUCT_PACKAGES += \
@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/meta_init.project.rc:root/meta_init.project.rc \
     $(LOCAL_PATH)/rootdir/meta_init.rc:root/meta_init.rc \
     $(LOCAL_PATH)/rootdir/init:root/init \
-    $(LOCAL_PATH)/rootdir/init.hermes.power.rc:root/init.hermes.power.rc \
+    $(LOCAL_PATH)/rootdir/init.x600.power.rc:root/init.x600.power.rc \
     $(LOCAL_PATH)/rootdir/init.storage.rc:root/init.storage.rc \
     $(LOCAL_PATH)/rootdir/init.cm.rc:root/init.cm.rc \
 

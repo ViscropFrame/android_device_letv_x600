@@ -4,7 +4,7 @@ import init.project.rc
 import init.xlog.rc
 import init.ssd.rc
 import init.modem.rc
-import init.hermes.power.rc
+import init.x600.power.rc
 
 
 
@@ -1363,7 +1363,7 @@ service sbchk /system/bin/sbchk
     group system
     oneshot
 
-service hermes /system/bin/hermes
+service x600 /system/bin/x600
     user root
     group root
     class main

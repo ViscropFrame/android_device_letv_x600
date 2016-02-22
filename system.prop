@@ -1,6 +1,6 @@
 #
 #
-# system.prop for Hermes
+# system.prop for Letv x600
 #
 
 rild.libpath=/system/lib/mtk-ril.so

@@ -4,21 +4,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/xiaomi/hermes/device.mk)
+$(call inherit-product, device/letv/x600/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := xiaomi hermes
+PRODUCT_RELEASE_NAME := letv x600
 
 EXTENDED_FONT_FOOTPRINT := true
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.timezone=Asia/Shanghai
 
-PRODUCT_DEVICE := hermes
-PRODUCT_NAME := full_hermes
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi Note 2
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_DEVICE := x600
+PRODUCT_NAME := full_x600
+PRODUCT_BRAND := letv
+PRODUCT_MODEL := Le 1
+PRODUCT_MANUFACTURER := letv
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Boot animation
