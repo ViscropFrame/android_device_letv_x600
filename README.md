@@ -1,8 +1,8 @@
-# CM12.1 Device tree for Redmi Note 2 (HERMES)
+# CM12.1 Device tree for Letv x600
 
 ### Other resource:
   - Kernel source: Not released yet
-  - Vendor blobs: https://github.com/jianminglok/android_vendor_xiaomi_hermes
+  - Vendor blobs: https://github.com/tomdegryse/android_vendor_letv_x600
 
 ### Credits (Sort by alphabetical order):
   - jianminglok
