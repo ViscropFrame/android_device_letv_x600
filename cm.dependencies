@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_vendor_letv_x600",
+    "target_path": "vendor/letv/x600"
+  },
+  {
+    "repository": "android_vendor_mediatek",
+    "target_path": "vendor/mediatek"
+  }
+]
